@@ -7,7 +7,7 @@ class AnalogSensor
 public:
     AnalogSensor(unsigned int samples);
     ~AnalogSensor();
-    int Read();
+    double Read();
 private:
     unsigned int mSamples;
 };
